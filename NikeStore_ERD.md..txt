@@ -33,3 +33,6 @@ erDiagram
         string location
         date last_updated
     }
+
+
+All 4 categories feed off each other as the customers come fore the product and with supply and demand the inventory will be be stocked appropriately and maybe prices will be adjusted depending on how poorly or well a productis doing in the sales category 
