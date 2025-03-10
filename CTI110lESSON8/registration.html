@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Mood Survey Form</h1>
+        <br>
+        <form action="#" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="numRatings">Number of Ratings to Submit:</label>
+            <input type="number" id="numRatings" name="numRatings" min="1" max="3">
+            <br><br>
+            <label for="location">Your Location:</label> 
+            <select name="location" id="location">
+                <option value="Home">Home</option>  
+                <option value="Work">Work</option>
+                <option value="School">School</option>
+            </select>
+            <br><br>
+            <input type="radio" id="morning" name="time" value="morning">
+            <label for="morning">Morning</label><br>
+            <input type="radio" id="afternoon" name="time" value="afternoon">
+            <label for="afternoon">Afternoon</label>
+            <br><br>
+            <input type="checkbox" id="happy" name="happy" value="happy">
+            <label for="happy">I feel happy</label><br>
+            <input type="checkbox" id="neutral" name="neutral" value="neutral">
+            <label for="neutral">I feel neutral</label><br>
+            <input type="checkbox" id="sad" name="sad" value="sad">
+            <label for="sad">I feel sad</label><br>
+            <br><br>
+            <input type="submit" value="Submit">&nbsp;&nbsp;
+            <input type="reset" value="Cancel">
+        </form>
+    </body>
+</html>
