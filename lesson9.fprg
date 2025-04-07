@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lesson10"/>
+        <attribute name="authors" value="Capit"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 04:15:00 PM"/>
+        <attribute name="created" value="Q2FwaXQ7SlVTVElOTFA7MjAyNS0wMy0xMjswMzowNzoyOCBQTTsyNDA5"/>
+        <attribute name="edited" value="Q2FwaXQ7SlVTVElOTFA7MjAyNS0wMy0xMjswNDoxNTowMCBQTTs1OzI1MTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Justin Mcphatter CTT-110"/>
+            <comment text="test case 2 number credit=12 fee=500.0 tuition=6000"/>
+            <comment text="test case 3 number credit=2 fee=500 tuition 100"/>
+            <comment text="Test case 1: numberCredit = 3, fee = 500.0, tuition = 1500.00"/>
+            <declare name="NumberCredit" type="Integer" array="False" size=""/>
+            <declare name="fee" type="Real" array="False" size=""/>
+            <declare name="tuition" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter number of credit's&quot;" newline="True"/>
+            <input variable="NumberCredit"/>
+            <output expression="&quot;Enter fee for each credit&quot;" newline="True"/>
+            <input variable="fee"/>
+            <assign variable="tuition" expression="NumberCredit * fee"/>
+            <output expression="&quot;your tuition is &quot;&amp; tuition" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
